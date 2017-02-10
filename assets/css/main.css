@@ -2789,14 +2789,16 @@
 			.tiles article header {
 				position: relative;
 				z-index: 3;
+                color: #98d321;
 			}
 
 			.tiles article h3 {
 				font-size: 1.75em;
+                color: #98d321;
 			}
 
 				.tiles article h3 a:hover {
-					color: inherit !important;
+					color: inherit!important;
 				}
 
 			.tiles article .link.primary {
@@ -2911,6 +2913,7 @@
 
 				.tiles article h3 {
 					font-size: 1.5em;
+                    
 				}
 
 		}
