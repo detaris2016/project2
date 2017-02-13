@@ -1,0 +1,106 @@
+/*.navbar .navbar-default .navbar-fixed-top {}
+#main-menu {
+    background-color: lightgrey;
+}
+.btn-danger {
+  background-color: aquamarine;  
+}
+
+.navbar-btn {
+   background-color: aqua;
+}
+
+.btn {
+   background-color: grey;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #99cc99;
+    border-color: #99cc99;
+}
+.btn-danger:hover {
+    color: #dae9da;
+    background-color: #94d194;
+    border-color: #94d194;
+}
+*/
+.btn-danger {
+    color: white;
+    background-color: #91dfdf;
+    border-color: #91dfdf;
+}
+.btn-danger:hover {
+    color: #dae9da;
+    background-color: #82c8c8;
+    border-color: #82c8c8;
+}
+.btn-danger:focus, .open>.dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #82c8c8;
+    border-color: #82c8c8;
+}
+@media only screen and (min-width: 768px) {
+  #main-menu.navbar-default {
+    background: rgba(255, 255, 255, 0.9);
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  #main-menu.navbar-default .navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #main-menu.navbar-default .navbar-nav > li.active > a,
+  #main-menu.navbar-default .navbar-nav > li.open > a,
+  #main-menu.navbar-default .navbar-nav > li:hover > a {
+    background: transparent;
+    padding-top: 37px;
+    border-top: 3px solid #45aed6;
+  }
+  #main-menu.navbar-default .dropdown-menu {
+    padding: 0 20px;
+    min-width: 220px;
+    background-color: #669292;
+    opacity: 0.9;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-clip: inherit;
+  }
+  #main-menu.navbar-default .dropdown-menu > li {
+    border-left: 3px solid transparent;
+    margin-left: -15px;
+    padding-left: 17px;
+    -webit-transition: border-color 400ms;
+    transition: border-color 400ms;
+  }
+  #main-menu.navbar-default .dropdown-menu > li > a {
+    border-top: none;
+    padding: 15px 0;
+    color: #eeeeee;
+  }
+  #main-menu.navbar-default .dropdown-menu > li:first-child > a {
+    border-top: 0;
+  }
+  #main-menu.navbar-default .dropdown-menu > li.active,
+  #main-menu.navbar-default .dropdown-menu > li.open,
+  #main-menu.navbar-default .dropdown-menu > li:hover {
+    border-left-color: #45aed6;
+  }
+  #main-menu.navbar-default .dropdown-menu > li.active > a,
+  #main-menu.navbar-default .dropdown-menu > li.open > a,
+  #main-menu.navbar-default .dropdown-menu > li:hover > a {
+    color: #45aed6;
+    background-color: transparent;
+  }
+.navbar-right .dropdown-menu {
+    right: 94px;
+    left: auto;
+}
+    .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+        margin-top: -10px;
+        margin-bottom: -8px;
+    }
+  }
+
